@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo List</title>
+  <link rel="stylesheet" type="text/css" href="todos.css">
+</head>
+<body>
+    <!-- Id though great they are used for single element.What do we
+    do when we want multiple element to have that style ?We
+    can use a class to do that. It is is just like an id that can
+    be applied to multiple elements and not just one-->
+  <h1>Todo List</h1>
+  <h3 class="highlight"  >Todo List</h3>
+  <h4 class="highlight">Todo List</h4>
+
+    <!-- We are using id so we can reference it in our css
+    Use the id once per page but you can have multiple
+    ids on a page.Note also adding class to put line through
+    completed checkboxes and adding checked attribute to ensure 
+    box is checked on loading-->
+  <ul>
+    <li id="first" class="completed" >
+      <input type="checkbox" name="" checked >
+      Bath 
+    </li>
+    <li id="second" class="completed" >
+      <input type="checkbox" name="" checked >
+      Eat Breakfast
+    </li>
+    <li  id="third">
+      <input type="checkbox" name="">
+      Go to Work
+    </li>
+  </ul>
+
+  
+</body>
+</html>

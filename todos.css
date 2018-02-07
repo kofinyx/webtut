@@ -1,0 +1,31 @@
+/* First way of picking selector:tag name */
+body{
+  background: rgb(111, 117, 119);
+}
+li{
+  border: 2px solid palegreen;
+}
+/* Second is use id in html and select that id 
+with #id_value. # tells css that it is an id
+so you should have that id in the html */
+#first {
+  color:red;
+}
+#second {
+  color:blue;
+}
+#third {
+  color:green;
+}
+/* We added some class to the html and these are 
+similar to the ids but they can reference 
+multiple elements.We reference them here 
+with "." unlike "#" for the ids. */
+
+.highlight{
+background: rgb(0, 255, 0);
+}
+
+.completed{
+  text-decoration:line-through
+}

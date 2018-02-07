@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>More Inputs</title>
+  </head>
+  <body>
+
+    <!-- Radio Button used when user has once choice-->
+    <!-- We want to use radio button to select between a dog 
+    or a cat.We have to use a "name "attribut to select
+    one of them and not both since the radio button will
+    allow you to select both with we dont tell it to select
+    just one and not both.By given them the same name they
+    are connected so we can pick just one and not both .
+    We can add a value to tell us what the selection is ie
+    dog or cat -->
+    <p>Do you prefer cats or dog</p>
+    <form>
+    <div>
+        <label for="dogs">Dogs:</label>
+        <input  name="PetChoice" id="dogs" type="radio" value="DOGS"> 
+        <label for="cats">Cats:</label>
+        <input  name="PetChoice" id="cats" type="radio" value="CATS">  
+    </div>
+    <!-- Select tag helps us select from nice dropdown menu -->
+    <p> User pick their favorite color</p>
+    <div>
+      <select name="color">
+        <option value="RED">Red</option>
+        <option value="GREEN">Green</option>
+        <option value="YELLOW">Yellow</option>
+      </select>
+    </div>
+    <!-- textarea tag is nice way to create inputs that are more than 
+    one line .Say ask a user to cut and paste a resume or a biography-->
+    <div>
+      <textarea name="paragraph" id="" cols="30" rows="10">Enter paragraph</textarea>
+    </div>
+    <!-- We will add a button.If a button is the last thing
+    in a form then it will submit the form -->
+      <button>GO!</button>
+    </form>
+    <!-- Checkbox can check or uncheck-->
+    <!-- <input type="checkbox" name="" id=""> -->
+  </body>
+</html>

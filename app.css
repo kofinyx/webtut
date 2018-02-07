@@ -1,0 +1,39 @@
+/* General rule for css 
+selector{
+  property:value;
+}*/
+
+/* Adding a border.A border has three parts
+width,color and style.Will add border to some tags
+here */
+
+h1{
+   color:rgba(0, 0, 255, 1);
+  /*border-color:purple;
+  border-width: 5px;
+  border-style: solid; */
+/* This is a simple and a more compact way of setting border */
+border: 5px solid purple;
+
+}
+h2{
+  color:rgba(0, 0, 255, 0.6);
+  border: 5px solid powderblue;
+}
+
+
+
+label{
+  color:rgba(0, 0, 255, 0.3);
+}
+/* using an image as backgroung for body tag 
+Depending on the size of the image ther could be tiling
+so to avoid that we set background repeat to no.If set 
+size to cover then the image will stretch if too small*/
+
+body{
+  background: peachpuff;
+  /* background:url(https://orig00.deviantart.net/a2c4/f/2008/313/8/4/wood_grain_texture_by_frankiesmileshow.png);
+  background-repeat: no-repeat;
+  background-size:cover; */
+}
