@@ -17,7 +17,7 @@ so you should have that id in the html */
 #third {
   color:green;
 }
-/* We added some class to the html and these are 
+/* Third we added some class to the html and these are 
 similar to the ids but they can reference 
 multiple elements.We reference them here 
 with "." unlike "#" for the ids. */
